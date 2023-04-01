@@ -1,0 +1,15 @@
+
+.ts-with-props {
+
+    height: 100px;
+    background-color: rgb(69, 73, 72);
+    text-align: center;
+    .ts-props-parent {
+
+        .ts-props-child {
+            ul {
+                display: flex;
+            }
+        }
+    }
+}
