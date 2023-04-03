@@ -4,6 +4,7 @@ import TsState from "./ts-state/TsState";
 import TsState2 from "./components/TsState";
 import TsWithProps from "./ts-with-props/TsWithProps";
 import {useState} from 'react'
+import TsHTMLElement from "./components/TsHTMLElement";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <TsState/>
       <TsWithProps/>
       <TsState2/>
+      <TsHTMLElement />
     </div>
   );
 }
