@@ -11,9 +11,9 @@ setItem(e.target.value)
     }
 
     const getValue = ()=>{  
-        setData([...data,item])
+        // setData([...data, item])
+        setData(()=>data.concat(item))
         setItem('')
-        console.log(data)
     }
 
   return (
