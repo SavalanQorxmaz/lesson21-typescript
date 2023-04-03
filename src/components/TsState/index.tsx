@@ -5,7 +5,7 @@ import './ts-state.scss'
 
 
 
-const TsState = () => {
+const TsState2 = () => {
 
 
 
@@ -21,4 +21,4 @@ const TsState = () => {
   )
 }
 
-export default TsState
+export default TsState2

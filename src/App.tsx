@@ -1,7 +1,7 @@
 import Counter from "./components/Counter";
 import Header from "./components/Header";
 import {useState} from 'react'
-import TsState from "./components/TsState";
+import TsState2 from "./components/TsState";
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header count={count}/>
       <Counter count = {count} setCount = {setCount}/>
-      <TsState/>
+      <TsState2/>
 
     </div>
   );
